@@ -1,0 +1,74 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assests/images/backgroundimage.jpg);
+  background-size: cover;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.guessfield {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.guesssubmit {
+  padding: 10px;
+  background-color: rgb(214, 130, 61);
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  width: 60%;
+  cursor: pointer;
+}
+
+.guesssubmit:hover {
+  background-color: rgb(63, 63, 95);
+  color: rgb(243, 155, 55);
+}
+
+.resultparas {
+  margin-top: 20px;
+}
+
+.resultparas p {
+  margin: 5px 0;
+}
+
+.loworhigh {
+  font-weight: bold;
+}
